@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2036" started-at="2019-01-02T03:12:50Z" finished-at="2019-01-02T03:12:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2036" started-at="2019-01-02T03:12:50Z" finished-at="2019-01-02T03:12:52Z">
+      <class name="test01.Timeout">
+        <test-method status="FAIL" signature="cs()[pri:0, instance:test01.Timeout@64c64813]" name="cs" duration-ms="2016" started-at="2019-01-02T11:12:50Z" finished-at="2019-01-02T11:12:52Z">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method org.testng.internal.TestNGMethod.cs() didn't finish within the time-out 2000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method org.testng.internal.TestNGMethod.cs() didn't finish within the time-out 2000
+	at java.util.concurrent.ThreadPoolExecutor.processWorkerExit(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cs -->
+      </class> <!-- test01.Timeout -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

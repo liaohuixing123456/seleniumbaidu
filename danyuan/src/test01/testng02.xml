@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <parameter name="test1" value="20"></parameter>
+    <parameter name="test2" value="40"></parameter>
+    <parameter name="test3" value="60"></parameter>
+    <classes>
+      <class name="test01.SizeyunsuanTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
